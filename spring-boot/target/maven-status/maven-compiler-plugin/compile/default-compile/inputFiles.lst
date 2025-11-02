@@ -1,5 +1,7 @@
 /home/devero11/smarthack/docker-fullstack-server-setup/spring-boot/src/main/java/com/example/spring_boot_docker/SpringBootDockerApplication.java
 /home/devero11/smarthack/docker-fullstack-server-setup/spring-boot/src/main/java/com/example/spring_boot_docker/controller/AuthController.java
+/home/devero11/smarthack/docker-fullstack-server-setup/spring-boot/src/main/java/com/example/spring_boot_docker/controller/UserController.java
 /home/devero11/smarthack/docker-fullstack-server-setup/spring-boot/src/main/java/com/example/spring_boot_docker/model/User.java
 /home/devero11/smarthack/docker-fullstack-server-setup/spring-boot/src/main/java/com/example/spring_boot_docker/repository/UserRepository.java
 /home/devero11/smarthack/docker-fullstack-server-setup/spring-boot/src/main/java/com/example/spring_boot_docker/service/AuthService.java
+/home/devero11/smarthack/docker-fullstack-server-setup/spring-boot/src/main/java/com/example/spring_boot_docker/service/UserService.java

@@ -1,5 +1,7 @@
+com/example/spring_boot_docker/service/UserService.class
+com/example/spring_boot_docker/service/AuthService.class
 com/example/spring_boot_docker/controller/AuthController.class
 com/example/spring_boot_docker/SpringBootDockerApplication.class
-com/example/spring_boot_docker/service/AuthService.class
+com/example/spring_boot_docker/controller/UserController.class
 com/example/spring_boot_docker/model/User.class
 com/example/spring_boot_docker/repository/UserRepository.class

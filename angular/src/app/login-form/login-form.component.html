@@ -1,0 +1,28 @@
+<div class="login-form">
+  <div class="main" >
+        <h1>LOGIN</h1>
+        <h3>Enter your login credentials</h3>
+
+        <form action="">
+            <label for="first">
+                Username:
+            </label>
+            <input type="text" id="first" name="first" [(ngModel)] = "username"
+                placeholder="Enter your Username" required>
+
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" [(ngModel)] = "password"
+                placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button type="submit" (click) = "loginForm()">
+                    Submit
+                </button>
+            </div>
+            <p>dont have an account? <a href="/register">click here</a></p>
+        </form>
+
+    </div>
+</div>

@@ -1,4 +1,3 @@
-
 package com.example.spring_boot_docker.controller;
 import java.util.Map;
 
@@ -16,6 +15,7 @@ public class AuthController {
         this.userService = userService;
     }
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/register")
     public Map<String, String> register(@RequestBody User user) {
       String token = userService.register(user.getUsername(), user.getEmail(), user.getPassword());
@@ -24,7 +24,8 @@ public class AuthController {
       }
       return Collections.singletonMap("token", token);
     }
-
+    
+    @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/login")
     public Map<String, String> login(@RequestBody User user) {
       String token = userService.authenticate(user.getUsername(), user.getPassword());
@@ -33,7 +34,8 @@ public class AuthController {
       }
       return Collections.singletonMap("token", token);
     }
-
+        
+    @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/test")
     public String test() {
      return "OK";

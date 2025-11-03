@@ -1,0 +1,34 @@
+<div class="register-form">
+    <div class="main" >
+        <h1>REGISTER</h1>
+        <h3>Enter your data</h3>
+
+        <form action="">
+            <label for="first">
+                Username:
+            </label>
+            <input type="text" id="first" name="first" [(ngModel)] = "username"
+                placeholder="Enter your Username" required>
+            <label for="email">
+                Email:
+            </label>
+            <input type="text" id="email" name="email" [(ngModel)] = "email"
+                placeholder="Enter your Email" required>
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" [(ngModel)] = "password"
+                placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button type="submit" (click) = "registerForm()">
+                    Submit
+                </button>
+            </div>
+            <p>already have an account? <a href="/login">click here</a></p>
+        </form>
+
+    </div>
+</div>
+
+

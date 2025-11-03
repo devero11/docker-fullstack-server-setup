@@ -12,6 +12,7 @@ public class UserController {
        this.userService = userService;
    }
 
+   @CrossOrigin(origins = "http://localhost:4200")
    @GetMapping("/username")
    public String username(@RequestHeader("Authorization") String token) {
       return userService.getCurrentUser(token).getUsername();

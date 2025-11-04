@@ -1,7 +1,7 @@
 # Full-Stack Template 
 
 
-## Instalation
+## Installation
 
 ```bash
 
@@ -77,4 +77,54 @@ Predefined routes are /login /register /user
 
 
 
+## GIT COMMANDS(For my team <3)
+
+
+```bash
+    
+    # You are familiar with `git clone`.
+    # Just to be sure, this just downloads the repo locally
+
+    git clone https://github.com/devero11/fullstack-server-setup.git
+ 
+    # When you cd to the repo's location you are
+    # initally on the main branch.
+
+    # You will NOT, under any circumstance work on this branch.
+    
+    # You will create your own branch using `git checkout`
+    
+    git checkout -b mySpecialLittleBranch 
+
+    # Once created you can check what branch you are on 
+    # with `git branch`
+
+    git branch
+
+    # If you are not on your branch use `git checkout` without -b 
+    
+    git checkout mySpecialLittleBranch 
+
+    # Now you can edit your code however you please
+    # Dont worry about breaking stuff you can always revert
+    # to the original
+
+    # If you broke your code or the main branch changed and you want to go back to that
+    # you can do `git pull`
+
+    git pull origin main # This replaces your code with the main branch
+
+    # If you are ready to upload your changes to github you do the following
+
+    git add . # The . stands for all the files, you can specify which ones you want if needed
+    git commit -m "some short description of what you did"
+    git push -u origin mySpecialLittleBranch
+
+    # DON'T PUSH TO MAIN PLEASE
+
+    # There's also pull requests if you wanna learn about them
+    # but dont worry for now
+    
+
+```
 

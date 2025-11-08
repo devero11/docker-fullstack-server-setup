@@ -52,7 +52,7 @@ public class AuthService {
 
         // Check if username or email already exists
         if (userRepository.findByUsername(username) != null ||
-            userRepository.findByEmail(email) != null) {
+            userRepository.existsByEmail(email) != null) {
             return "UserExistsError";
         }
 
